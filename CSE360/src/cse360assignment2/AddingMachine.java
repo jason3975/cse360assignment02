@@ -15,12 +15,12 @@ public class AddingMachine {
 	  }
 	  
 	  public void add (int value) {
-		  total += value;
+		  total += value;//adding to total
 		  totalString = totalString + " + " + value;//adding to the string
 	  }
 
 	  public void subtract (int value) {
-		  total -= value;
+		  total -= value;//subtracting from total
 		  totalString = totalString + " - " + value;//adding to the string
 	  }
 
@@ -38,7 +38,8 @@ public class AddingMachine {
 		  myCalculator.add(4);
 		  myCalculator.subtract(2);
 		  myCalculator.add(5);
-		  System.out.print(myCalculator.toString());
+		  System.out.println(myCalculator.getTotal());
+		  System.out.println(myCalculator.toString());
 		  
 		  
 	  }
